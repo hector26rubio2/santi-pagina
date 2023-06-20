@@ -71,7 +71,7 @@ export const Inicio = () => {
 				</Col>
 				<Col>
 					<Card style={{ width: "18rem" }}>
-						<Card.Img variant="top" src="/src/assets/fondo.jpg" />
+						<Card.Img variant="top" src="/public/fondo.jpg" />
 						<Card.Body>
 							<Card.Title>Card Title</Card.Title>
 							<Card.Text>
