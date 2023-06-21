@@ -46,6 +46,12 @@ jobs:
         with:
           # Upload dist repository
           path: './dist'
+      - name: Upload Images
+        uses: actions/upload-artifact@v2
+        with:
+          # Upload images folder
+          name: Images
+          path: './public/img'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
