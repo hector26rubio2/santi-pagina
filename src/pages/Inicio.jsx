@@ -58,7 +58,7 @@ export const Inicio = () => {
 			<Row className="mt-5">
 				<Col>
 					<Card style={{ width: "18rem" }}>
-						<Card.Img variant="top" src="/src/assets/fondo.jpg" />
+						<Card.Img variant="top" src="/public/sdsadas.jpg" />
 						<Card.Body>
 							<Card.Title>Card Title</Card.Title>
 							<Card.Text>
