@@ -51,7 +51,7 @@ jobs:
         with:
           # Upload images folder
           name: Images
-          path: './public/img'
+          path: './public'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
