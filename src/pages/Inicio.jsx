@@ -71,7 +71,7 @@ export const Inicio = () => {
 				</Col>
 				<Col>
 					<Card style={{ width: "18rem" }}>
-						<Card.Img variant="top" src="img/sdsadas.jpg" />
+						<Card.Img variant="top" src="./img/sdsadas.jpg" />
 						<Card.Body>
 							<Card.Title>prueba iamgen</Card.Title>
 							<Card.Text>
