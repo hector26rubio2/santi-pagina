@@ -1,4 +1,3 @@
-# Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
 on:
@@ -46,12 +45,15 @@ jobs:
         with:
           # Upload dist repository
           path: './dist'
-      - name: Upload Images
+      - name: Upload Public Folder
         uses: actions/upload-artifact@v2
         with:
-          # Upload images folder
-          name: Images
+          # Upload public folder
+          name: Public
           path: './public'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          branch: gh-pages
+          folder: dist
