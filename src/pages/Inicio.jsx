@@ -58,7 +58,7 @@ export const Inicio = () => {
 			<Row className="mt-5">
 				<Col>
 					<Card style={{ width: "18rem" }}>
-						<Card.Img variant="top" src="/public/sdsadas.jpg" />
+						<Card.Img variant="top" src="/public/img/sdsadas.jpg" />
 						<Card.Body>
 							<Card.Title>Card Title</Card.Title>
 							<Card.Text>
@@ -71,7 +71,7 @@ export const Inicio = () => {
 				</Col>
 				<Col>
 					<Card style={{ width: "18rem" }}>
-						<Card.Img variant="top" src="sdsadas.jpg" />
+						<Card.Img variant="top" src="/img/sdsadas.jpg" />
 						<Card.Body>
 							<Card.Title>prueba iamgen</Card.Title>
 							<Card.Text>
